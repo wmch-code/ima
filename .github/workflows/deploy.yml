@@ -37,7 +37,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm ci || npm install
+        run: |
+          echo "Listing files to verify workspace structure:"
+          ls -la
+          npm install --legacy-peer-deps
 
       - name: Build app
         run: npm run build
