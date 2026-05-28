@@ -1,0 +1,6 @@
+{
+  "name": "IMA Copilot 视觉实战指南",
+  "description": "融合高保真交互模拟与人工智能绘图的一站式 ima.copilot 知识 Agent 精品指南",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
